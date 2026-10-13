@@ -1,0 +1,16 @@
+:root { --bg: #fff5f8; --card: #ffffff; --ink: #5c3d4a; --soft: #8f6f7d; --rose: #c76a86; --gold: #cfa45c; }
+*, *::before, *::after { box-sizing: border-box; }
+p { overflow-wrap: anywhere; }
+body { margin: 0; background: linear-gradient(#ffeef4, #fbf6ff 40%, #fffaf6); color: var(--ink); font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; line-height: 1.8; }
+main { max-width: 720px; margin: 0 auto; padding: 28px 16px 56px; }
+header { text-align: center; margin-bottom: 20px; }
+header .crown { color: var(--gold); font-size: 1.4rem; }
+header .logo { font-family: Georgia, "Times New Roman", serif; font-style: italic; font-size: 2.2rem; color: var(--rose); margin: 0; }
+header .sub { letter-spacing: .3em; color: var(--soft); font-size: .8rem; }
+h1 { font-size: 1.35rem; border-bottom: 2px solid var(--gold); padding-bottom: 6px; }
+h2 { font-size: 1.05rem; margin-top: 26px; color: var(--rose); }
+section.card { background: var(--card); border: 1px solid #f0dcc0; border-radius: 18px; padding: 4px 20px 16px; box-shadow: 0 6px 18px rgba(199,106,134,.10); }
+.en { margin-top: 40px; }
+small { color: var(--soft); }
+a { color: var(--rose); }
+nav { text-align: center; margin-top: 28px; font-size: .9rem; }
